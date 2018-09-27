@@ -1,0 +1,40 @@
+.typing {
+  height: 100%;
+  width: 90%;
+}
+
+legend {
+  display: none;
+}
+
+fieldset {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.typingOriginText {
+  height: 40%;
+}
+
+.typingOriginText div {
+  height: 100%;
+}
+
+.typingOriginText textarea {
+  height: 100%;
+  /* overflow: scroll; */
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.typingText {
+  height: 30%;
+}
+
+.typingText div {
+  height: 100%;
+}
+
+.typingText textarea {
+  height: 100%;
+  /* overflow: scroll; */
+  color: rgba(255, 255, 255, 0.7) !important;
+}

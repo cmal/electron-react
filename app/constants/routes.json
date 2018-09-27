@@ -1,4 +1,9 @@
 {
   "HOME": "/",
-  "COUNTER": "/counter"
+  "COUNTER": "/counter",
+  "TYPING": "/typing",
+  "HISTORY": "/history",
+  "SETTING": "/setting",
+  "RANK": "/rank",
+  "PROFILE": "/profile"
 }

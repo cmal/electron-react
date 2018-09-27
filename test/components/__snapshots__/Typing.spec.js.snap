@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typing component should match exact snapshot 1`] = `
+<div>
+  <div
+    className="typing"
+  >
+    <div
+      className="MuiFormControl-root-1 MuiFormControl-marginNormal-2 MuiFormControl-fullWidth-4 typingOriginText"
+      style={
+        Object {
+          "margin": 8,
+        }
+      }
+    >
+      
+      <div
+        className="MuiInputBase-root-18 MuiOutlinedInput-root-5 MuiInputBase-disabled-21 MuiOutlinedInput-disabled-7 MuiInputBase-fullWidth-27 MuiInputBase-formControl-19 MuiInputBase-multiline-26 MuiOutlinedInput-multiline-11"
+        onClick={[Function]}
+      >
+        <fieldset
+          aria-hidden={true}
+          className="MuiNotchedOutline-root-35 MuiNotchedOutline-disabled-39 MuiOutlinedInput-notchedOutline-12"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="MuiNotchedOutline-legend-36"
+            style={
+              Object {
+                "width": 8,
+              }
+            }
+          />
+        </fieldset>
+        <div
+          className="Textarea-root-40"
+        >
+          <textarea
+            aria-hidden="true"
+            className="Textarea-textarea-41 Textarea-shadow-42"
+            readOnly={true}
+            rows="1"
+            tabIndex={-1}
+            value=""
+          />
+          <textarea
+            aria-hidden="true"
+            className="Textarea-textarea-41 Textarea-shadow-42"
+            readOnly={true}
+            rows={1}
+            tabIndex={-1}
+            value="Helper Text"
+          />
+          <textarea
+            aria-invalid={false}
+            className="Textarea-textarea-41 MuiInputBase-input-28 MuiOutlinedInput-input-13 MuiInputBase-disabled-21 MuiOutlinedInput-disabled-7 MuiInputBase-inputMultiline-30 MuiOutlinedInput-inputMultiline-15"
+            disabled={true}
+            id="typing-text"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder=""
+            required={false}
+            rows={1}
+            style={
+              Object {
+                "height": 19,
+              }
+            }
+            value="Helper Text"
+          />
+        </div>
+      </div>
+      
+    </div>
+    <div
+      className="btnGroup"
+    >
+      <button
+        className="btn"
+        data-tclass="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        LOAD CLIPBOARD
+      </button>
+    </div>
+    <div
+      className="MuiFormControl-root-1 MuiFormControl-marginNormal-2 MuiFormControl-fullWidth-4 typingText"
+      onCompositionStart={[Function]}
+      onCompositionUpdate={[Function]}
+      onKeyDown={[Function]}
+      style={
+        Object {
+          "margin": 8,
+        }
+      }
+    >
+      
+      <div
+        className="MuiInputBase-root-18 MuiOutlinedInput-root-5 MuiInputBase-fullWidth-27 MuiInputBase-formControl-19 MuiInputBase-multiline-26 MuiOutlinedInput-multiline-11"
+        onClick={[Function]}
+      >
+        <fieldset
+          aria-hidden={true}
+          className="MuiNotchedOutline-root-35 MuiOutlinedInput-notchedOutline-12"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="MuiNotchedOutline-legend-36"
+            style={
+              Object {
+                "width": 8,
+              }
+            }
+          />
+        </fieldset>
+        <div
+          className="Textarea-root-40"
+        >
+          <textarea
+            aria-hidden="true"
+            className="Textarea-textarea-41 Textarea-shadow-42"
+            readOnly={true}
+            rows="1"
+            tabIndex={-1}
+            value=""
+          />
+          <textarea
+            aria-hidden="true"
+            className="Textarea-textarea-41 Textarea-shadow-42"
+            readOnly={true}
+            rows={1}
+            tabIndex={-1}
+            value=""
+          />
+          <textarea
+            aria-invalid={false}
+            className="Textarea-textarea-41 MuiInputBase-input-28 MuiOutlinedInput-input-13 MuiInputBase-inputMultiline-30 MuiOutlinedInput-inputMultiline-15"
+            disabled={false}
+            id="typing-text"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="xxx"
+            required={false}
+            rows={1}
+            style={
+              Object {
+                "height": 19,
+              }
+            }
+            value=""
+          />
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+`;

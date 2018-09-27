@@ -31,7 +31,8 @@ describe('containers', () => {
   describe('App', () => {
     it('should display initial count', () => {
       const { p } = setup();
-      expect(p.text()).toMatch(/^0$/);
+      console.log('######', p.text());
+      expect(p.counter.text()).toMatch(/^0$/);
     });
 
     it('should display updated count after increment button click', () => {
@@ -46,7 +47,7 @@ describe('containers', () => {
       expect(p.text()).toMatch(/^-1$/);
     });
 
-    it('shouldnt change if even and if odd button clicked', () => {
+    it('should not change if even and if odd button clicked', () => {
       const { buttons, p } = setup();
       buttons.at(2).simulate('click');
       expect(p.text()).toMatch(/^0$/);
